@@ -1,0 +1,35 @@
+/* FONT FACE */
+@font-face {
+	font-family: "PatrickHand";
+	font-style: normal;
+	font-weight: 400;
+	src: url(PatrickHand-Regular.ttf) format('truetype');
+}
+
+/* HTML & BODY */
+html, body{
+	width:100%;
+	height:100%;
+	overflow: hidden;
+	cursor: none;
+}
+body{
+	background: #fff;
+	margin:0;
+
+	font-family: "PatrickHand", Helvetica, Arial;
+	font-size: 23px;
+	line-height: 1.5em;
+
+}
+/* fake bold */
+b, strong{
+	font-weight: normal;
+	text-shadow:1px 0 0 currentColor;
+}
+a{
+	color: #ff4040;
+}
+a:hover{
+	color: #ff6060;
+}
