@@ -7,13 +7,13 @@ const CANVAS_HEIGHT = canvas.height = 600;
 
 //name your code to call image
 const playerImage = new Image();
-playerImage.src = 'sprite/alpaca.png';
-const spriteWidth = 601;
+playerImage.src = 'sprite/alpaca-stand.png';
+const spriteWidth = 602;
 const spriteHeight = 600;
 //setting the square parameter as frame
 
 let gameFrame = 0;
-let staggerFrames = 7;
+let staggerFrames = 10;
 
 
 //create a function on what you want to do
